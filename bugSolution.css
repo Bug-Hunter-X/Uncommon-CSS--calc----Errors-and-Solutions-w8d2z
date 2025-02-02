@@ -1,0 +1,22 @@
+/* bugSolution.css */
+.container {
+  width: 100%;
+}
+
+.element {
+  width: calc(100% - 20px); /* Correct: Consistent unit usage */
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.element2 {
+  width: calc(50% - 10px);
+  background-color: lightgreen;
+  margin: 10px;
+}
+
+.element3 {
+  width: calc( (100% - 20px) / 2);
+  background-color: lightcoral;
+  margin: 10px;
+} /*Correct: Nested calc() for complex calculations*/
